@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.main button {
+    background-color: #ffa601;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.main button:hover {
+    background-color: #ff7c00;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    main button {
+        display: block;
+        margin: 10px auto;
+    }
+}
